@@ -1,6 +1,4 @@
-#WP Media Layers
-
- 
+# WP Media Layers
 
 &nbsp;
 
@@ -10,7 +8,9 @@
 Originally authored by [Dominic Fallows](https://github.com/dominicfallows) at [90 Degrees](https://github.com/90Degrees)
 Original published date: 21/Aug/2015
 
-Custom Meta Box components inspired by [WordPress Meta Boxes: a Comprehensive Developer’s Guide](http://themefoundation.com/wordpress-meta-boxes-guide/) tutorial.
+With thanks to:
+- [WordPress Meta Boxes: a Comprehensive Developer's Guide](http://themefoundation.com/wordpress-meta-boxes-guide) - inspiration for meta box input field functions
+- [Team Post Type](https://github.com/devinsays/team-post-type) - inspiration for plugin classes, functions and structure
 
 #### License
 

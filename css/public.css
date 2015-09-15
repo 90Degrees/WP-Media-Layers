@@ -1,0 +1,70 @@
+.wpml-media-area  {
+  position:relative;
+  z-index:1;
+}
+
+.wpml-media-area .wpml-media-area-base {
+  width:100%;
+  max-width:100%;
+  height:auto;
+  margin:0;
+  padding:0;
+}
+
+/* Hot spots */
+.wpml-media-area .wpml-hotspot {
+  position:absolute;
+  z-index:2;
+  width:24%;
+  margin-left:-12%;
+}
+
+.wpml-media-area .wpml-hotspot .wpml-hotspot-index {
+  margin:0 auto 15px auto;
+  width:20px;
+  height:20px;
+  border-radius:20px;
+  background-color:#00a1dc;
+  color:#ffffff;
+  font-size:10px;
+  line-height:20px;
+  font-weight:bold;
+  text-align:center;
+}
+.wpml-media-area .wpml-hotspot .wpml-hotspot-index:hover,
+.wpml-media-area .wpml-hotspot .wpml-hotspot-index:focus  {
+  cursor:pointer;
+}
+
+.wpml-media-area .wpml-hotspot .wpml-hotspot-popup {
+  background-color:#ffffff;
+  background-color:rgba(255,255,255,0.8);
+  padding:10px;
+  opacity:0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.wpml-media-area .wpml-hotspot.active .wpml-hotspot-popup {
+  opacity:1;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.wpml-media-area .wpml-hotspot .wpml-hotspot-popup .wpml-hotspot-label {
+  display:block;
+}
+.wpml-media-area .wpml-hotspot .wpml-hotspot-popup .wpml-hotspot-popup-text {
+  display:block;
+}
+.wpml-media-area .wpml-hotspot .wpml-hotspot-popup .wpml-hotspot-close {
+  display:block;
+  font-size:25px;
+  width:20px;
+  height:20px;
+  margin:5px auto 0 auto;
+}
+.wpml-media-area .wpml-hotspot .wpml-hotspot-popup .wpml-hotspot-close:hover,
+.wpml-media-area .wpml-hotspot .wpml-hotspot-popup .wpml-hotspot-close:focus {
+  cursor:pointer;
+}
